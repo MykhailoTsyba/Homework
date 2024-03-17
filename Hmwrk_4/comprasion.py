@@ -6,11 +6,5 @@ len_str_2 = len(string_2)
 
 if string_1 == string_2:
     print('Data are confirmed')
-    if len_str_1 == len_str_2:
-        print(f'Both strings has {len_str_1} symbols')
 else:
     print('Data aren\'t confirmed')
-    if len_str_1 != len_str_2:
-        print(f'First string has {len_str_1} symbols\nSecond string has {len_str_2} symbols')
-    if len_str_1 == len_str_2:
-        print(f'Both strings has {len_str_1} symbols, but they are not the same')
