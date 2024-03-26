@@ -1,7 +1,15 @@
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 42]
+my_list = [1, 2, 3, 5, 4, 5, 6, 7, 8, 9, 10, 11]
 
 for number in my_list:
-    if my_list[::1]:
+    index = my_list.index(number)
+    if index == number-1:
         continue
-print(f"Inconsistent number is: {number}")
+    else: print(f"Inconsistant number is {number} on index {index}")
+    break
+
+
+
+
+
+
 
